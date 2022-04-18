@@ -1,5 +1,19 @@
-.menu{
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+    background-image: url(../imgs/fundo-site.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.menu{
     list-style-type: none;
 
     display: flex;
@@ -26,16 +40,18 @@ li{
     border-left: 1px solid #fff;
 }
 
-body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-
-    background-image: url(../imgs/d3ff2f_14d8050c642c4529bd557befe22e94bf_mv2_d_3840_2160_s_2.webp);
-    background-repeat:no-repeat;
-    background-size:cover;
-}
 a{
     text-decoration: none;
     color: white;
+}
+
+.imgs-white{
+    display: flex;
+    justify-content: end;
+}
+
+.imgs-playing{
+    width: 100%;
+    /* width: 40rem; */
+    height: 35rem;
 }

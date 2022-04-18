@@ -7,8 +7,6 @@ const stopBtn = document.querySelector('#stopBtn');
 const volumeBtn = document.querySelector('#volumeBtn');
 const volumeSlider = document.querySelector("#volume-slider");
 
-
-
 var timeCalculator = function (value) {
     second = Math.floor(value % 60);
     minute = Math.floor((value / 60) % 60);
@@ -97,7 +95,6 @@ const changeVolume = (volume) => {
 volumeSlider.addEventListener("mouseup", () => {
     changeVolume(volumeSlider.value);
 });
-  
 
 wavesurfer.on('finish', function () {
     playBtn.src = './imgs/play.png';

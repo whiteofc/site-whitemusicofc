@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.movie{
+    display: flex;
+    justify-content: center;
+
+    padding: 3.4rem;
+}

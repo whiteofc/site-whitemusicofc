@@ -6,23 +6,18 @@
     font-family: raleway2;
     src: url(../fonts/Raleway-VariableFont_wght.ttf);
 }
-
-body{
-    background-image: url(../imgs/d3ff2f_14d8050c642c4529bd557befe22e94bf_mv2_d_3840_2160_s_2.webp);
-    background-repeat:no-repeat;
-    background-size:cover;
-}
 /* section{
     
     
 } */
 .titulo{
-
     font-family:  Helvetica, sans-serif;
     font-weight: bold;
     font-size: 40px;
 }
-
+.logo-sobre{
+    width: 10rem;
+}
 .imgs-sobre{
     display: flex;
     justify-content: center;
@@ -46,8 +41,6 @@ body{
     font-size: 15px;
     line-height: 1.4em;
     font-family: "raleway2", sans-serif;
-
-    
 }
 
 .white-dj{

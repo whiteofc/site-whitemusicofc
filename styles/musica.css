@@ -1,14 +1,16 @@
-.sets{
-    display: flex;
-}
-
 .music{
-    width: 100%;
-    padding: 30px;
+    /* padding: 3.0rem; */
     /* padding-right: 300px;
     background-color: rgba(14,9,9,0.74);
     display: flex;
     justify-content: center; */
+}
+
+.font-msc{
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4.0rem;
+    color: white;
 }
 
 /* .music img{

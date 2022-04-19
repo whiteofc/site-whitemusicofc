@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.formContainer{
+    display: flex;
+    color: white;
+    background-color: rgba(14,9,9,0.74);
+
+}
+
+.details{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 0 0 16.8rem;
+}
+.title-contato{
+    font-size: 4.0rem;
+    text-align: end;
+    border-bottom: 1rem solid;
+}
+
+.text-contato{
+    font-size: 1.7rem;
+    text-align: end;
+    /* margin-top: 70px; */
+}
+
+.text-contato, .title-contato{
+    margin: auto;
+    margin-top: 1rem;
+}

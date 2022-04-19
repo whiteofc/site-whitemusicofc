@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
-    margin: 0;
+    max-width: 1000px;
+    margin: auto;
     display: flex;
     justify-content: center;
 
@@ -19,25 +24,25 @@ body{
     display: flex;
 
     margin: 0 0 20px 0;
-    padding: 25px;
+    padding: 2.5rem;
 
     background-color:transparent;
     box-sizing: border-box;
     bottom: 0;
-    box-shadow: 0 0 100px rgba(0,0,0,.7);
+    box-shadow: 0 0 10rem rgba(0,0,0,.7);
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
+    font-size: 2.7rem;
     font-weight: 700;
     color: white;
 }
 li{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 3.0rem;
+    padding-right: 3.0rem;
 }
 
 .border-left{
-    border-left: 1px solid #fff;
+    border-left: 0.1rem solid #fff;
 }
 
 a{
@@ -53,5 +58,5 @@ a{
 .imgs-playing{
     width: 100%;
     /* width: 40rem; */
-    height: 35rem;
+    height: 50rem;
 }

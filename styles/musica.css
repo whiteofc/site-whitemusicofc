@@ -1,9 +1,30 @@
-.music{
-    /* padding: 3.0rem; */
-    /* padding-right: 300px;
+/* .music{
+    padding: 3.0rem;
+    padding-right: 300px;
     background-color: rgba(14,9,9,0.74);
     display: flex;
-    justify-content: center; */
+    justify-content: center;
+} */
+
+.link-musica{
+	color: whitesmoke;
+	position: relative;
+}
+
+.link-musica::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.musica:hover .link-musica::after {
+	width: 100%;
+	left: 0;
 }
 
 .font-msc{

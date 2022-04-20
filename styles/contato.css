@@ -2,14 +2,39 @@
     margin: 0;
     padding: 0;
 }
+.link-contato{
+	color: whitesmoke;
+	position: relative;
+}
+
+.link-contato::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.contato:hover .link-contato::after {
+	width: 100%;
+	left: 0;
+}
 
 form{
     color: white;
     
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 
     padding: 2rem;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 input{
     width: 100%;
@@ -19,8 +44,22 @@ input{
     margin-bottom: 1rem;
 }
 
+.enviar button{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+
 .formContainer{
     display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 500px;
     color: white;
     background-color: rgba(14,9,9,0.74);
 
@@ -31,7 +70,6 @@ input{
     flex-direction: row-reverse;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem 0 0 16.8rem;
 }
 .title-contato{
     font-size: 4.0rem;

@@ -6,10 +6,26 @@
     font-family: raleway2;
     src: url(../fonts/Raleway-VariableFont_wght.ttf);
 }
-/* section{
-    
-    
-} */
+.link-sobre{
+	color: whitesmoke;
+	position: relative;
+}
+
+.link-sobre::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.sobre:hover .link-sobre::after {
+	width: 100%;
+	left: 0;
+}
 .titulo{
     font-family:  Helvetica, sans-serif;
     font-weight: bold;

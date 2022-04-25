@@ -13,10 +13,23 @@
     <link rel="stylesheet" href="./styles/video.css">
     <link rel="stylesheet" href="./styles/loja.css">
     
-    <link rel="icon" href="./imgs/LOGOMARCA WHITE CINZA.png" type="image/png">
-    
+    <link rel="icon" href="./imgs/loja/logo_white_prateada.png" type="image/png">
 </head>
 <body>
+
+    <script>
+        const card1 = document.querySelector('#card1');
+
+
+card1.addEventListener('click', () =>{
+
+    if(card1.src.includes('capa_iphone_white.png')){
+        card1.src = './imgs/loja/capa_iphone_daleinsano_azul.png';
+    }
+    else
+        card1.src = '/capa_iphone_white.png';
+});
+    </script>
     <div class="container">
         <div class="content">
             <header>
@@ -57,26 +70,51 @@
         <section>
             <div class="cardContainer">
                 <div class="top-card">
-                    <a href="#">
+                        <a href="https://https://wa.me/5582996084312" target="_blank" rel="external">
                         <div id="card1">
-                            <img  src="./imgs/loja/CAPINHA 3.png" alt="Capinha White - Branca">
+                            <img id="card1-hover" src="./imgs/loja/capa_iphone_white_branca.png" alt="Capinha White - Branca">
                             <h3 style="text-align: center;">CAPA IPHONE</h3>
                             <p style="text-align: center;" >R$ 50,00</p>
                         </div>
                     </a>
-                    <div id="card2"></div>
-                    <div id="card3"></div>
-                    <div id="card4"></div>
+                    <a href="https://https://wa.me/5582996084312">
+                        <div id="card2">
+                            <img id="card1-hover" src="./imgs/loja/bone_white_vermelho_frente.png" alt="Capinha White - Branca">
+                            <h3 style="text-align: center; font-family: t;">CAPA IPHONE</h3>
+                            <p style="text-align: center;" >R$ 50,00</p>
+                        </div>
+                    </a>
+                    <a href="https://https://wa.me/5582996084312">
+                        <div id="card3">
+                            <h3 style="text-align: center; font-family: t;">CAPA IPHONE</h3>
+                            <p style="text-align: center;" >R$ 50,00</p>
+                        </div>
+                    </a>
+                    <a href="https://https://wa.me/5582996084312">
+                        <div id="card4">
+                            <h3 style="text-align: center; font-family: t;">CAPA IPHONE</h3>
+                            <p style="text-align: center;" >R$ 50,00</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="bottom-card">
-                    <div id="card5"></div>
-                    <div id="card6"></div>
-                    <div id="card7"></div>
-                    <div id="card8"></div>
+                    <a href="">
+                        <div id="card5"></div>
+                    </a>
+                    <a href="">
+                        <div id="card6"></div>
+                    </a>
+                    <a href="">
+                        <div id="card7"></div>
+                    </a>
+                    <a href="">
+                        <div id="card8"></div>
+                    </a>
                 </div>
             </div>
         </section>
     </div>
+    
     <script src="./js/loja.js"></script>
 </body>
 </html>

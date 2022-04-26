@@ -28,11 +28,14 @@
 .top-card{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 15px;
 
 }
 
 .top-card img{
-	width: 216.25px;
+	display: flex;
+	justify-content: space-between;
+	
 }
 
 #card1, #card2, #card3, #card4{
@@ -45,12 +48,13 @@
 	flex-direction: column;
 }
 
-#card1, h3, p{
+
+ /* .top-card, h3, p{
 	color: white;
 	font-size: 20px;
-}
+} 
 
-#card2 img{
+ #card2 img{
 	margin-bottom: 32px;
 }
 #card3 img{
@@ -58,7 +62,7 @@
 }
 #card4 img{
 	margin-bottom: 32px;
-}
+}  */
 
 .bottom-card{
 	display: flex;

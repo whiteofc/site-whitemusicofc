@@ -28,27 +28,36 @@
 .top-card{
 	display: flex;
 	justify-content: space-between;
+
+}
+
+.top-card img{
+	width: 216.25px;
 }
 
 #card1, #card2, #card3, #card4{
 	border: 1px #fff solid;
 	width: 218.25px;
 	height: 317.25px;
-}
 
-#card1{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
 
-#card1 img{
-	margin-bottom: 25px;
-}
-
 #card1, h3, p{
 	color: white;
 	font-size: 20px;
+}
+
+#card2 img{
+	margin-bottom: 32px;
+}
+#card3 img{
+	margin-bottom: 32px;
+}
+#card4 img{
+	margin-bottom: 32px;
 }
 
 .bottom-card{
@@ -61,4 +70,8 @@
 	border: 1px #fff solid;
 	width: 218.25px;
 	height: 317.25px;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }

@@ -1,4 +1,6 @@
 const item1 = document.querySelector('#card1-hover');
+const item2 = document.querySelector('#card2-hover');
+const item3 = document.querySelector('#card3-hover');
 
 // const cards = {
 //     item1 = document.querySelector(#)
@@ -25,29 +27,31 @@ item1.addEventListener('mouseout', () =>{
 
 item2.addEventListener('mouseover', () =>{
 
-    if(item1.src.includes('capa_iphone_white.png')){
-        item1.src = '../imgs/loja/capa_iphone_daleinsano_azul.png';
+    if(item2.src.includes('bone_white_vermelho_frente.png')){
+        item2.src = '../imgs/loja/bone_white_daleinsano_tras.png';
     }
 });
 
 item2.addEventListener('mouseout', () =>{
-    if(!item1.src.includes('capa_iphone_white.png')){
-        item1.src = '../imgs/loja/capa_iphone_white.png';
+    if(!item2.src.includes('bone_white_vermelho_frente.png')){
+        item2.src = '../imgs/loja/bone_white_vermelho_frente.png';
     }
 });
 
 item3.addEventListener('mouseover', () =>{
 
-    if(item1.src.includes('capa_iphone_white.png')){
-        item1.src = '../imgs/loja/capa_iphone_daleinsano_azul.png';
+    if(item3.src.includes('bone_white_daleinsano_azul_frente.png')){
+        item3.src = '../imgs/loja/bone_white_dale_insano_tras.png';
     }
 });
 
 item3.addEventListener('mouseout', () =>{
-    if(!item1.src.includes('capa_iphone_white.png')){
-        item1.src = '../imgs/loja/capa_iphone_white.png';
+    if(!item3.src.includes('bone_white_daleinsano_azul_frente.png')){
+        item3.src = '../imgs/loja/bone_white_daleinsano_azul_frente.png';
     }
 });
+
+
 
 item4.addEventListener('mouseover', () =>{
 

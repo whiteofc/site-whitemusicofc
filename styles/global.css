@@ -9,8 +9,8 @@ html{
 }
 
 body{
-    max-width: 114rem;
-    margin: auto;
+    max-width: 100%;
+    /* margin: auto; */
     display: flex;
     justify-content: center;
 

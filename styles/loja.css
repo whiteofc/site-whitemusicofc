@@ -35,7 +35,6 @@
 .top-card img{
 	display: flex;
 	justify-content: space-between;
-	
 }
 
 #card1, #card2, #card3, #card4{
@@ -46,23 +45,15 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	justify-content: space-around;
 }
-
-
- /* .top-card, h3, p{
-	color: white;
-	font-size: 20px;
-} 
-
- #card2 img{
-	margin-bottom: 32px;
+.text-card{
+	font-size: 13px;
 }
-#card3 img{
-	margin-bottom: 32px;
+.text-card4{
+	margin-bottom: 25px;
+	font-size: 13px;
 }
-#card4 img{
-	margin-bottom: 32px;
-}  */
 
 .bottom-card{
 	display: flex;
@@ -78,4 +69,5 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	justify-content: space-around;
 }
